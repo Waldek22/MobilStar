@@ -12,6 +12,9 @@ p, li{
 	color: #463f3f;
 	line-height: 1.5em;
 }
+li {
+	line-height: 1.7em;
+}
 ul  {
 	list-style: none;
 	padding-left: 0;
@@ -28,12 +31,13 @@ h2 {
 }
 .navbar-default {
 	position: absolute;
-	background: rgba(0, 0, 0, .5);
+	background: rgba(255, 255, 255, .5);
 	border: none;
 	width: 100%;
 }
 .navbar-default .navbar-nav>li>a {
-	color: white;
+	color: black;
+	text-transform: uppercase;
 	display: block;
 	height: 100%;
 	padding: 18px 15px;
@@ -42,9 +46,12 @@ h2 {
 	padding: 0;	
 }
 .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
-	color: white;
-	background: rgba(0, 0, 0, .5);
+	color: black;
+	background: rgba(255, 255, 255, .7);
 	
+}
+.navbar-nav {
+	float: right;
 }
 #navbar {
 	padding: 0;	
@@ -52,6 +59,7 @@ h2 {
 #logo {
 	width: 300px;
 	padding: 0;
+	margin-top: -5px;
 }
 .jumbotron-white {
 	text-transform: uppercase;
@@ -60,15 +68,18 @@ h2 {
 	margin-top: 80px;
 	margin-right: 100px;
 	color: black;
+	display: none;
 }
 .jumbotron-white h1 {
 	font-size: 40px;
 	margin: 12px 5px;
+
 }
 .jumbotron-black {
 	float: right;
 	margin-right: 100px;
 	background: rgba(0, 0, 0, .5);
+	display: none;
 }
 .jumbotron-black h2 {
 	font-size: 30px;
@@ -90,7 +101,8 @@ h2 {
 }
 .dark-container img {
 	border-radius: 50%;	
-	max-width: 250px;
+	max-width: 200px;
+	margin: 0 auto;
 
 }
 .dark-container p, .dark-container h3 {
@@ -100,12 +112,18 @@ h2 {
 .jumbotron {
 	height: 70vh;
 	width: 100%;
-    background: url('img/jumbotron.jpg') fixed;
+    background: 
+    	linear-gradient(
+      	rgba(0, 0, 0, 0.2), 
+      	rgba(0, 0, 0, 0.2)
+    	),
+    	 url('img/jumbotron.jpg') fixed;
     background-size: cover;
+   
 }
 .btn {
-	background: #ff5a00;
-	border-color: #ff5a00;
+	background: #476d98;
+	border-color: #061c35;
 	float: right;
 	margin: 20px 0;
 	padding: 0;
@@ -120,8 +138,8 @@ h2 {
 	text-decoration: none;	
 }
 .btn:hover {
-	background: #ff8542;
-	border-color: #ff5a00;
+	background: #5388b7;
+	border-color: #061c35;
 }
 i {
 	padding-right: 10px;
@@ -139,7 +157,8 @@ footer {
 	height: 100%;
 }
 #footer p {
-	padding: 20px 0;
+	padding: 10px 0 20px;
+	margin: 0;
 }
 
 @media (max-width: 990px) {
