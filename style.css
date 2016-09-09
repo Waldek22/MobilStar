@@ -95,12 +95,8 @@ h2 {
 	font-weight: 300;
 }
 .container {
-	padding-top: 30px;
-	padding-bottom: 30px;
-}
-#about {
-	padding-top: 40px;
-	padding-bottom: 40px;
+	padding-top: 60px;
+	padding-bottom: 60px;
 }
 .dark-container {
 	background: #061c35;
@@ -164,7 +160,7 @@ i {
 }
 footer {
 	width: 100%;
-	height: 100px;
+	height: 150px;
 	text-align: center;
 }
 #footer {
