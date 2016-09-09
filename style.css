@@ -188,6 +188,15 @@ footer {
 	}
 }
 @media (max-width: 768px) {
+	.jumbotron-white h1 {
+    	font-size: 29px;
+	}
+	.jumbotron-black h2 {
+		font-size: 19px;
+	}
+	.jumbotron-white, .jumbotron-black {
+		margin-right: 10px;
+	}
 	img {
 		margin: 0 auto;
 	}
